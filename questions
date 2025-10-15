@@ -1,0 +1,113 @@
+
+                                               ASSIGNMENT 1
+
+1. Explain the difference between frontend, backend, and full-stack        
+      development with suitable real-world examples.
+Ans:-1. Frontend Development:- Frontend development focuses on the part of a website or application that users directly interact with — the user interface (UI).
+Technologies used:
+HTML (structure)
+
+
+CSS (styling)
+
+
+JavaScript (interactivity)
+
+
+Frameworks/Libraries: React, Angular, Vue.js
+2. Backend Development
+Backend development handles the server-side logic, database, and application functionality — things that users don’t see but make the app work.
+Technologies used:
+Languages: Node.js, Python (Django, Flask), Java (Spring Boot), PHP
+
+
+Databases: MySQL, MongoDB, PostgreSQL
+
+
+
+
+3. Full-Stack Development
+ Full-stack developers work on both frontend and backend, meaning they can build an entire web application from start to finish.
+Technologies used:
+Frontend + Backend tools
+
+
+Example stacks: MERN (MongoDB, Express.js, React, Node.js), MEAN (MongoDB, Express.js, Angular, Node.js)
+
+
+2. Create a simple diagram showing how the client-server model works in web architecture.
+Client (Browser)
+  	↓  Request
+ -------------------------
+  	↑  Response
+ Server (Website / Database)
+
+ Explanation: The client sends a request to the server (for example, opening a webpage). The server processes it and sends back a response (like HTML data).
+
+
+
+
+3. Describe how a browser requests and displays a web page from a web server.
+When you type a website address in your browser and press Enter, the browser first contacts a DNS server to find the IP address of that website. Then it connects to the web server using HTTP or HTTPS and sends a request for the web page. The server processes the request and sends back the page’s files (like HTML, CSS, and JavaScript). The browser receives these files, builds the page, applies styles, runs scripts, and finally displays the complete webpage on your screen.
+4. Identify and list the tools required to set up a web development environment. Explain the purpose of each.
+Ans:- The tools required for Web Development Environment are as follows:
+1 Text Editor/IDE- Visual Studio Code, Sublime Text
+    Purpose: Used to write and edit code easily with features like auto-completion and debugging
+2. Web Browser- Google Chrome, Mozilla Firefox
+     Purpose: Used to run, test, and view web pages; also provides              developer tools for inspecting code.
+3. Version Control System-Git
+     Purpose: Helps track changes in code and collaborate with others.
+4. Packet manager- npm, yarn
+     Purpose: Used to install and manage external libraries or frameworks.
+5. Local web server-  XAMPP, WAMP, Node.js server
+      Purpose:Allows you to run and test web project on your computer
+6. Database System-MySQL, MongoDB
+      Purpose: Provide ready-made code and structure to make development faster and easier.
+
+
+5. Explain what a web server is and give examples of commonly used servers.
+Ans- A web browser is the bridge between a user’s browser and a website’s files. It responds to a client's request (e.g., when you type a URL into your browser) by processing that request and sending back the necessary files, such as HTML, images, and CSS. It can be both a physical computer and the software that runs on it.
+
+Examples 
+Apache HTTP Server 
+Nginx
+Microsoft IIS (Internet Information Services) 
+LiteSpeed
+Node.js Server.
+
+
+
+6. Define the roles of a frontend developer, backend developer, and database administrator in a project.
+Ans-A frontend developer is responsible for creating the part of a website that users see and interact with. They design and build the user interface using HTML, CSS, and JavaScript to make the website look attractive, responsive, and easy to use. 
+A backend developer works on the server side of the website. They handle the logic, process user requests, connect to databases, and ensure smooth communication between the frontend and the server using languages like Python, Node.js, or Java.
+ The database administrator manages and maintains the database that stores all the website’s data. They make sure the data is organized, secure, and regularly backed up so that the website functions properly and information is always available when needed.
+Ques 7. Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a screenshot of the setup.
+Steps:
+1. Install VS Code from official website.
+2. Add extensions like Live Server, Prettier, and HTML CSS Support.
+3. Create a new folder and add files — index.html, style.css, script.js.
+4. Right-click → “Open with Live Server”.
+
+(Take a screenshot of this setup in VS Code and attach it.)
+Ques 8. Explain the difference between static and dynamic websites. Provide an example of each.
+Type	Description	Example
+Static Website	Content doesn’t change until edited manually.	Portfolio site
+Dynamic Website	Content changes automatically using database or user input.	Facebook, YouTube
+Ques 9. Research and list five web browsers. Explain how rendering engines differ between them.
+Browser	Rendering Engine
+Google Chrome	Blink
+Mozilla Firefox	Gecko
+Microsoft Edge	Blink
+Safari	WebKit
+Opera	Blink
+Explanation: Rendering engines are responsible for converting HTML, CSS, and JS into visual web pages. Different browsers may show small visual differences because of their engines.
+Ques 10. Draw a labeled diagram showing the basic web architecture flow — client, server, database, and APIs.
++-----------+         +-----------+         +-------------+
+|   Client  | <--->   |   Server  | <--->   |  Database   |
++-----------+         +-----------+         +-------------+
+        |                    |
+        |------ APIs --------|
+
+Explanation: Client (browser or app) sends a request. Server processes the request and interacts with the database. The server then sends the response back to the client.
+
+ 
