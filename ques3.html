@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Course Registration</title>
+</head>
+<body>
+  <header>
+    <h1>Course Registration Form</h1>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Student Information</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+          <option value="cs" selected>Computer Science</option>
+          <option value="cyber">Cybersecurity</option>
+          <option value="ds">Data Science</option>
+        </select>
+      </fieldset>
+    </form>
+
+    <h2>Available Schedules</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Time</th>
+          <th>Instructor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>10:00 - 12:00</td>
+          <td>Dr. Sharma</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>14:00 - 16:00</td>
+          <td>Prof. Rao</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>09:00 - 11:00</td>
+          <td>Ms. Verma</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Registration Office: admissions@example.edu</p>
+  </footer>
+</body>
+</html>
