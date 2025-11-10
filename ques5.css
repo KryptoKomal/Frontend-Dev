@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial, sans-serif;background:#f3f4f6;color:#0b1320;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.pricing-wrap{display:flex;gap:1.5rem;padding:2rem;align-items:stretch;justify-content:center;width:100%;max-width:1100px;animation:fadeIn 0.8s ease both}
+.pricing-card{background:#fff;border-radius:10px;padding:2rem;display:flex;flex-direction:column;align-items:center;box-shadow:0 8px 24px rgba(11,19,32,0.06);transition:transform .25s,box-shadow .25s}
+.pricing-card .price{font-size:1.5rem;font-weight:700;margin:0.5rem 0}
+.pricing-card ul{list-style:none;padding:0;margin:0 0 1rem 0}
+.pricing-card li{margin:0.25rem 0}
+.pricing-card button{padding:.5rem 1rem;border:none;border-radius:6px;background:#0f4c81;color:#fff;cursor:pointer}
+.pricing-card:hover{transform:translateY(-10px)}
+.pricing-card.featured{transform:scale(1.05);background:#fffbeb;border:2px solid #ffd166}
+.pricing-card.small{flex:1 1 0}
+.pricing-card.featured{flex:1.2 1 0}
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(10px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@media (max-width:750px){
+  .pricing-wrap{flex-direction:column;padding:1rem}
+  .pricing-card{width:100%}
+}
