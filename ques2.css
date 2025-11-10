@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  display: flex;
+  gap: 20px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.box1 {
+  width: 200px;
+  height: 150px;
+  background: steelblue;
+}
+.box2 {
+  width: 30%;
+  min-height: 100px;
+  max-width: 250px;
+  background: darkorange;
+}
+.box3 {
+  width: 10em;
+  height: 40vh;
+  background: seagreen;
+  overflow: hidden;
+}
