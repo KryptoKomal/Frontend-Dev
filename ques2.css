@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #5a189a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    background: linear-gradient(to right, #ffafcc, #ffc8dd);
+    padding: 50px;
+    text-align: center;
+}
+
+.culture {
+    background: radial-gradient(circle, #a2d2ff, #bde0fe);
+    padding: 50px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.places {
+    background-image: url('mathura.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #5a189a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
