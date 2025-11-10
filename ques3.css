@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+header, footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: black;
+  padding: 10px;
+}
+header { top: 0; }
+footer { bottom: 0; }
+main {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.linear {
+  background: linear-gradient(to right, purple, orange);
+  background-attachment: fixed;
+}
+.radial {
+  background: radial-gradient(circle, teal, navy);
+}
