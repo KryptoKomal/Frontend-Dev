@@ -1,0 +1,10 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial, sans-serif;display:flex;flex-direction:column;min-height:100vh;color:#0b1320}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;background:#023047;color:#fff}
+.logo{font-weight:700;font-size:1.25rem}
+.site-nav a{color:#fff;text-decoration:none;margin-left:1rem}
+.features{display:flex;gap:1rem;padding:2rem;flex:1;align-items:stretch;justify-content:center}
+.feature{flex:1;background:#fff;padding:2rem;border-radius:8px;text-align:center;box-shadow:0 8px 20px rgba(11,19,32,0.06);transition:transform .25s}
+.feature:hover{transform:scale(1.03)}
+.site-footer{text-align:center;padding:1rem;background:#023047;color:#fff}
+@media (max-width:750px){.features{flex-direction:column;padding:1rem}}
