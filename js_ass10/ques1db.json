@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple iPhone 14",
+      "price": 79999,
+      "image": "https://via.placeholder.com/100?text=iPhone"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S23",
+      "price": 69999,
+      "image": "https://via.placeholder.com/100?text=Samsung"
+    },
+    {
+      "id": 3,
+      "name": "OnePlus Nord CE",
+      "price": 24999,
+      "image": "https://via.placeholder.com/100?text=OnePlus"
+    },
+    {
+      "id": 4,
+      "name": "Dell Inspiron Laptop",
+      "price": 55999,
+      "image": "https://via.placeholder.com/100?text=Dell"
+    },
+    {
+      "id": 5,
+      "name": "Sony Headphones",
+      "price": 4999,
+      "image": "https://via.placeholder.com/100?text=Sony"
+    }
+  ]
+}
