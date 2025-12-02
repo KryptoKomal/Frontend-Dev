@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Q1 - Welcome Page Greeting</title>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- Our custom JS file -->
+  <script src="q1_welcome.js" defer></script>
+
+  <style>
+    /* Simple styling just to make it look neat (optional for assignment) */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+
+    header, main, footer {
+      padding: 16px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+    }
+
+    .button-group {
+      margin-top: 16px;
+    }
+
+    button {
+      margin-right: 8px;
+      padding: 8px 14px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    #changeGreetingBtn {
+      background: #4caf50;
+      color: white;
+    }
+
+    #toggleWelcomeBtn {
+      background: #2196f3;
+      color: white;
+    }
+
+    #resetGreetingBtn {
+      background: #ff9800;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <!-- Semantic header -->
+  <header>
+    <h1>My Welcome Page</h1>
+    <nav>
+      <p>Home | About | Contact</p>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <section aria-labelledby="greetingHeading">
+      <!-- Dynamic greeting based on time of day -->
+      <h2 id="greetingHeading">Greeting</h2>
+      <p id="greetingText">
+        <!-- This will be replaced by jQuery on page load -->
+        Welcome!
+      </p>
+
+      <!-- Welcome message that we will toggle -->
+      <p id="welcomeMessage">
+        We’re glad you are visiting this website. Explore and enjoy your time here!
+      </p>
+
+      <!-- Buttons -->
+      <div class="button-group">
+        <!-- 1. Change greeting to motivational quote -->
+        <button id="changeGreetingBtn">Change Greeting</button>
+
+        <!-- 2. Toggle visibility of the welcome message -->
+        <button id="toggleWelcomeBtn">Toggle Welcome Message</button>
+
+        <!-- Extra button (optional, for flexibility): Reset to original time-based greeting -->
+        <button id="resetGreetingBtn">Reset Greeting</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Semantic footer -->
+  <footer>
+    <p>&copy; 2025 My Demo Website</p>
+  </footer>
+</body>
+</html>
